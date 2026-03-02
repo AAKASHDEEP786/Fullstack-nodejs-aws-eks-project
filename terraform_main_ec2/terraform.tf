@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "booksec2"
+    bucket = "bookstore-infra-state-5921"
     key    = "ec2/terraform.tfstate"
     region = "us-east-1"
   }

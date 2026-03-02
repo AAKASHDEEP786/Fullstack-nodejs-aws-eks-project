@@ -7,7 +7,7 @@ terraform {
   }
 
   backend "s3" {
-    bucket = "bookseks"
+    bucket = "bookstore-upload-bucket-6816"
     key    = "k8/terraform.tfstate"
     region = "us-east-1"
   }

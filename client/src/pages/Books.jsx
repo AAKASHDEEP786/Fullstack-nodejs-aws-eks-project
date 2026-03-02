@@ -441,7 +441,7 @@ const Books = () => {
       <section className="contrib-banner">
         <span>Contribute to Yash Academic Bookstore on GitHub.</span>
         <a
-          href="https://github.com/arumullayaswanth/Fullstack-nodejs-aws-eks-project.git"
+          href="https://github.com/arumullaaakash/Fullstack-nodejs-aws-eks-project.git"
           target="_blank"
           rel="noopener noreferrer"
         >

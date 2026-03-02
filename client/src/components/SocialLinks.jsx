@@ -3,19 +3,19 @@ import React from "react";
 const links = [
   {
     name: "LinkedIn",
-    href: "https://www.linkedin.com/in/yaswanth-arumulla/",
+    href: "https://www.linkedin.com/in/aakash-arumulla/",
     label: "in",
     className: "linkedin",
   },
   {
     name: "GitHub",
-    href: "https://github.com/arumullayaswanth",
+    href: "https://github.com/arumullaaakash",
     label: "GH",
     className: "github",
   },
   {
     name: "Medium",
-    href: "https://medium.com/@yaswanth.arumulla",
+    href: "https://medium.com/@aakash.arumulla",
     label: "M",
     className: "medium",
   },
@@ -35,7 +35,7 @@ const SocialLinks = () => {
         Explore our GitHub repository and access the source code:{" "}
         <a
           className="repo-link"
-          href="https://github.com/arumullayaswanth/Fullstack-nodejs-aws-eks-project.git"
+          href="https://github.com/arumullaaakash/Fullstack-nodejs-aws-eks-project.git"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -12,7 +12,7 @@ pipeline {
         stage('Checkout from Git') {
             steps {
                 // Clone the 'master' branch of your GitHub repository
-                git branch: 'master', url: 'https://github.com/arumullayaswanth/Fullstack-nodejs-aws-eks-project.git'
+                git branch: 'master', url: 'https://github.com/arumullaaakash/Fullstack-nodejs-aws-eks-project.git'
             }
         }
 
@@ -50,7 +50,7 @@ pipeline {
             environment {
                 // Define environment variables for use in this stage
                 GIT_REPO_NAME = "Fullstack-nodejs-aws-eks-project"
-                GIT_USER_NAME = "arumullayaswanth"
+                GIT_USER_NAME = "arumullaaakash"
             }
             steps {
                 // Move into the 'kubernetes-files' directory
@@ -62,7 +62,7 @@ pipeline {
                             git config user.email "Yaswanth.arumulla@gmail.com"
                         
                             # Set Git user name for committing
-                            git config user.name "arumullayaswanth"
+                            git config user.name "arumullaaakash"
                         
                             # Capture Jenkins build number into a shell variable
                             BUILD_NUMBER=${BUILD_NUMBER}
