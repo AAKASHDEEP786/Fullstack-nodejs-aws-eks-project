@@ -57,4 +57,4 @@ spec:
       protocol: TCP
   selector:
     app: backend
-  type: LoadBalancer
+  type: ClusterIP
